@@ -1,0 +1,7 @@
+--- cpu_usage.py	2024-09-15 19:45:31.824081700 +0100
++++ cpu_usage_new.py	2024-09-15 20:27:11.857312600 +0100
+@@ -9,3 +9,4 @@
+ else:
+ 	print("everything is okay")
+ 
++print("this extra line is very useful")
