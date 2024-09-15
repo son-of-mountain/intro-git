@@ -9,4 +9,3 @@ if not check_cpu_usage(75):
 else:
 	print("everything is okay")
 
-print("this extra line is very useful")
