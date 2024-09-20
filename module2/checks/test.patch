@@ -1,0 +1,9 @@
+diff --git a/module2/.gitignore b/module2/.gitignore
+deleted file mode 100644
+index b3c583c..0000000
+--- a/module2/.gitignore
++++ /dev/null
+@@ -1,2 +0,0 @@
+-.DS_STORE
+-.history
+\ No newline at end of file
