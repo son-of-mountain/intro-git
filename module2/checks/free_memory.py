@@ -2,6 +2,6 @@
 
 def main():
     pass
-    print('hello')
+    # print('hello') is a new line
 
 main()
