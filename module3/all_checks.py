@@ -29,7 +29,7 @@ def main():
             sys.exit(1)
             allOk = False
     if not allOk:
-        sys.exit(1) 
+        sys.exit(1)  
     print('everything is ok')
     sys.exit(0) 
 
