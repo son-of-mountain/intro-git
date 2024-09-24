@@ -22,10 +22,14 @@ def main():
         (check_reboot , "pending reboot"),
         (check_reboot_full , "Root partition is full"),
     ]
+    allOk = True
     for check, name in checks:
         if check():
             print(f"{name} detected.")  
             sys.exit(1)
+            allOk = False
+    if not allOk:
+        sys.exit(1) 
     print('everything is ok')
     sys.exit(0) 
 
