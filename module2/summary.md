@@ -12,3 +12,6 @@ $ echo "im typing this thing in a file" > hello.txt
 $ git commit --amend
 
 # difference between git pull and git fetch 
+
+# 3-way-merge is the solution when there's merge conflicts in remote
+hint: use the `$git log` to see what other collaborators have added
